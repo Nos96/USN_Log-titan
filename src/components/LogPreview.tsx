@@ -26,6 +26,7 @@ export const LogPreview: React.FC = () => {
     fenrir: "", // todo: add fenrir logo
     tyr: "/USN_Log/ships/tyr.png",
     freyr: "/USN_Log/ships/freyr.png",
+    titan: "/USN_log/ships/titan.png",
   };
 
   const renderPage = (pageText: string, idx: number, isVisible: boolean) => {
